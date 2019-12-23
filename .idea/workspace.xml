@@ -380,10 +380,10 @@
     </configuration>
     <list>
       <item itemvalue="Python.run" />
-      <item itemvalue="Python tests.pytest for test_reg.Test_Register" />
+      <item itemvalue="Python tests.pytest in test_reg.py" />
       <item itemvalue="Python tests.pytest for test_reg.Test_Register.test_register" />
       <item itemvalue="Python tests.pytest for test_reg.Test_Register.test_register_01" />
-      <item itemvalue="Python tests.pytest in test_reg.py" />
+      <item itemvalue="Python tests.pytest for test_reg.Test_Register" />
     </list>
     <recent_temporary>
       <list>

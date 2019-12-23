@@ -37,7 +37,7 @@ class RegisterCase(Page):
         except Exception as msg:
             picture = screen_shot(self.driver, "打开首页失败")
             allure.attach.file(picture, "打开首页失败", attachment_type=allure.attachment_type.PNG)
-            print("-----打开首页失败:{}------".format(msg))
+            print("-----打开首页失败:{}！！！------".format(msg))
             raise
 
     # def register(self, card):
