@@ -1,0 +1,23 @@
+index :
+  register : //*[contains(text(),'门诊挂号')]
+  print_order : //*[contains(text(),'补打小票')]
+card_query :
+  input_card: input
+  enter_card: confirm-btn
+  user_name: username
+register :
+  choice_cardtype : //*[contains(text(),'输入就诊卡号')]
+  dept : //*[@class='dept-item']/p
+  date : //*[@class='date-item']/strong
+  am_pm : //*[@class='am-item']/span
+  doc_list : //*[@class='doctor-item']
+  reg_num : //*[@class='date-item']
+  confirm_reg : //*[@class='userinfo-item'][2]/p[2]
+print_order :
+  choice_query : //*[contains(text(),'就诊卡')]
+  choice_cardtype : //*[contains(text(),'输入就诊卡号')]
+  print_btn : //*[@class='pay-btn'][2]
+  info_btn : //*[@class='pay-btn'][1]
+  printing : loading-text
+  detail_print : pay-btn
+  back_no : pay-btn pay-item-gy
